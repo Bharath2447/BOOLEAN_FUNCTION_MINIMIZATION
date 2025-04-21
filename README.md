@@ -1,5 +1,9 @@
-# EX.2 BOOLEAN_FUNCTION_MINIMIZATION
-# Date: 21/04/2025
+**NAME : Bharath K**
+
+**REG NO : 24900579**
+
+**EXPERIMENT 2 : IMPLEMENTATION OF BOOLEAN_FUNCTION_MINIMIZATION**
+
 
 **AIM:**
 
@@ -15,14 +19,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
-**Theory**
-
-![WhatsApp Image 2024-10-14 at 14 06 02_82a55775](https://github.com/user-attachments/assets/4faa63f1-a124-4f5c-9247-a2796541ebdd)
-
-**Logic Diagram**
-
-
-**Procedure**
+**PROCEDURE**
 
 1.	Type the program in Quartus software.
 
@@ -35,56 +32,26 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+**PROGRAM:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+![WhatsApp Image 2024-11-21 at 10 38 49_31d02bdc](https://github.com/user-attachments/assets/6335030a-aa19-493c-aa7c-caa2f9d18bc4)
 
-
-module EXP_3_1(a,b,c,d,f1);
-
-input a,b,c,d;
-
-output f1;
-
-assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
-
-endmodule
+**TRUTH TABLE**
 
 
+![WhatsApp Image 2024-11-21 at 11 34 59_158c6d9f](https://github.com/user-attachments/assets/180440d0-631d-45bf-a85a-4508c9f41e65)
 
-module EXP_3_2(w,x,y,z,f2);
-
-input w,x,y,z;
-
-output f2;
-
-assign f2=((~y&z)|(x&y)|(w&y));
-
-endmodule
+![WhatsApp Image 2024-11-21 at 11 34 59_05329a2a](https://github.com/user-attachments/assets/e7443311-e06d-405a-9194-a60e492f0585)
 
 
+**RTL REALIZATION**
 
-Developed by: Bharath K
-
-
-RegisterNumber: 24900579
+![WhatsApp Image 2024-11-21 at 10 39 01_59a4773c](https://github.com/user-attachments/assets/d2fe1b17-ec84-43fa-b3be-3e47c39543f7)
 
 
-**RTL realization**
+**TIMING DIAGRAM**
+![WhatsApp Image 2024-11-21 at 10 38 35_6f76205c](https://github.com/user-attachments/assets/77517132-8223-49b6-bad0-8941a4c7875a)
 
-![EXP_3_1](https://github.com/user-attachments/assets/6df1c729-da63-4689-9345-896b561aadc5)
-
-![EXP_3_2](https://github.com/user-attachments/assets/7f241857-a9e5-4d67-b81a-1db0351e37ff)
-
-
-**Timing Diagram**
-
-![Waveform3_1](https://github.com/user-attachments/assets/0b7350cd-6576-4854-8c38-ab07b5b10e69)
-
-![Waveform3_2](https://github.com/user-attachments/assets/8a1ed604-9efd-4c70-809a-236485f1b441)
-
-
-**Result:**
+**RESULT**
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
-
